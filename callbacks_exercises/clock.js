@@ -1,7 +1,6 @@
 class Clock {
   constructor() {
     const currentTime = new Date();
-    debugger
     this.hours = currentTime.getHours(); // THIS is CLOCK, the class
     this.minutes = currentTime.getMinutes();
     this.seconds = currentTime.getSeconds();
